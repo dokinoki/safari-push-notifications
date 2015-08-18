@@ -1,7 +1,7 @@
 # safari-push-notifications
 Classes for creating apple push notifications
 
-## Requirements
+## How to create push packages for your website
 
 1 - Create push folder in server <br>
 2 - Give permisions to folder (chown -R apache push) <br>
