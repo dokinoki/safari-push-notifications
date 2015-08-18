@@ -1,6 +1,6 @@
     <?php
     
-    require_once('pushPackageClass.php');
+    require_once('../pushPackageClass.php');
     
     //Create a push package using the class and the userID
     $objPushClass = new pushPackageClass($_COOKIE['USER_ID']);
