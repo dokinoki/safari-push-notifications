@@ -1,5 +1,5 @@
 # safari-push-notifications
-Classes for creating apple push notifications
+Classes for creating apple push notifications in PHP
 
 ## How to create push packages for your website
 
@@ -10,7 +10,6 @@ Classes for creating apple push notifications
 5 - Add p12 keyfile to push folder <br>
 6 - Create .htaccess rule to create REST endpoints <br>
 7 - Create pushClass and the methods register and deregister to save stuff to db
-
 
 ## Structure
 
