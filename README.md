@@ -9,3 +9,11 @@ Classes for creating apple push notifications
 4 - Add the icons to the icon.iconset folder according to apple´s guidelines  <br>
 5 - Add p12 keyfile to push folder <br>
 6 - Create .htaccess rule to create REST endpoints <br>
+7 - Create pushClass and the methods register and deregister to save stuff to db
+
+
+## Structure
+
+- package.php --> serves the package to safari
+- register.php --> registers the user's notification consent with the device ID
+- log.php --> sends the errors to apache's error log
